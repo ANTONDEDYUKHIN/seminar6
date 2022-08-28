@@ -30,4 +30,4 @@ int Count(int[] array1)
     return count;
 }
 
-Console.WriteLine(Count(array1));
+Console.WriteLine($"Количество положительных чисел из введенных:{Count(array1)}");
